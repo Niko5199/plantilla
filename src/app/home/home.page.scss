@@ -25,3 +25,30 @@
 #container a {
   text-decoration: none;
 }
+
+.content-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 800px;
+  background-color: #1c8de3;
+}
+
+.highlighted{
+  font-weight: bold;
+}
+
+.form {
+  margin: 30px;
+}
+
+.btn-margin{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
